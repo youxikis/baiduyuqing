@@ -1,0 +1,528 @@
+div,body,p,ul,li,h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+	
+}
+a,i,b,em{
+	list-style: none;
+	text-decoration: none;
+	
+}
+.section:nth-child(1){
+	background: url(../baiduimg/1.jpg) no-repeat;
+	background-size: cover;
+}
+.section:nth-child(2){
+	background: url(../baiduimg/5.jpg) no-repeat;
+	background-size: cover;
+}
+.section:nth-child(3){
+	background: url(../baiduimg/15.jpg) no-repeat;
+	background-size: cover;
+}
+.section:nth-child(4){
+	background: url(../baiduimg/20.jpg) no-repeat;
+	background-size: cover;
+}
+/*hheader*/
+.header{
+	top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    font-family: "Microsoft Yahei";
+    background: #168bd8;
+}
+.fov{
+	width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+}
+.h-logo{
+	display: block;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    background: url(../baiduimg/logo.png) -2px 0px no-repeat;
+    
+}
+.h-list{
+	float: left;
+}
+.h-list-in{
+	margin-left: 60px;
+}
+.h-list-every{
+	position: relative;
+    list-style-type: none;
+    display: list-item;
+    float: left;
+}
+.h-list-every a{
+	text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 15px;
+    height: 28px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.h-fuwu{
+	float: right;
+    margin-top: 25px;
+}
+.h-fuwu a{
+	color: #fff;
+    font-size: 12px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.h-fuwu .help-5{
+	color: #FFDA28;
+}
+.help-2 i{
+	display: inline-block;
+    width: 32px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-image: url(../baiduimg/logo.png);
+    background-position: -88px -154px;
+}
+/*1*/
+.bottom-1{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 126px;
+    background: #0d71cd url(../baiduimg/5.jpg);
+}
+.main{
+	 height: 100%;
+	 width: 100%;
+	 vertical-align: middle;
+}
+.cloude-f1{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.cloude-1{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: url(../baiduimg/2.png) repeat;
+}
+.cloude-f2{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+}
+.cloude-2{
+	position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: url(../baiduimg/3.png) repeat;
+}
+.cloude-f3{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.cloude-3{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: url(../baiduimg/4.png) repeat;
+}
+.section .center{
+	width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 0;
+}
+.ice-1{
+	width: 63px;
+    height: 78px;
+    background: url(../baiduimg/6.png);
+    right: 288px;
+    top: -13px;
+    position: absolute;
+    visibility: visible;
+}
+.ice-2{
+	width: 260px;
+    height: 175px;
+    background: url(../baiduimg/7.png);
+    right: -129px;
+    top: -47px;
+    position: absolute;
+    visibility: visible;
+}
+.ice-3{
+	width: 265px;
+    height: 175px;
+    background: url(../baiduimg/8.png);
+    left: -182px;
+    top: -50px;
+    visibility: visible;
+    position: absolute;
+}
+.ice-4{
+	width: 242px;
+    height: 228px;
+    background: url(../baiduimg/9.png);
+    left: 100px;
+    top: -191px;
+    visibility: visible;
+    position: absolute;
+}
+.denglu{
+	background: #4ebffc;
+	height: 300px;
+    width: 340px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: -198px;
+}
+.denglu input{
+	padding: 0;
+	border: 0;
+	width: 300px;
+	margin-left: 20px;
+	height: 40px;
+	margin-top: 20px;
+	float: left;
+}
+.denglu input:nth-child(3){
+	width: 145px;
+	margin-bottom: 10px;
+}
+.denglu input:nth-of-type(4){
+	background: #FFD850;
+	margin-bottom: 10px;
+}
+.denglu a{
+	float: left;
+	margin-left: 20px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.denglu a:nth-of-type(2){
+	margin-left: 130px;
+}
+.yan{
+	display:block;
+	width: 100px;
+	height: 40px;
+	background: url(../baiduimg/yan.png) no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+.lunch{
+	width: 501px;
+	position: absolute;
+    height: 158px;
+    background: url(../baiduimg/10.png);
+    left: 0;
+    top: -210px;
+}
+.flying{
+	width: 119px;
+    height: 78px;
+    background: url(../baiduimg/11.png);
+    left: 295px;
+    top: -236px;
+    position: absolute;
+    animation: fly 1.2s linear infinite alternate;
+}
+.bottom{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.next{
+	display: block;
+    width: 30px;
+    height: 26px;
+    background: url(../baiduimg/12.png);
+    position: absolute;
+    left: 485px;
+    bottom: 42px;
+    animation: next 0.5s linear infinite alternate;
+}
+@keyframes cloudemove{
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: -2000px 0;
+		
+	}
+}
+@keyframes next{
+	from{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(8px);
+		opacity: 0.5;
+	}
+}
+@keyframes fly{
+	from{
+		transform: translateY(10px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+.active-c1{
+	animation: cloudemove 100s linear infinite;
+}
+.active-c2{
+	animation: cloudemove 200s linear infinite;
+}
+.active-c3{
+	animation: cloudemove 300s linear infinite;
+}
+/*2*/
+.two-1{
+	position: absolute;
+    display: block;
+    bottom: 0;
+    background: #35b568;
+    left: 70px;
+    width: 44px;
+    height: 44px;
+}
+.two-2{
+	position: absolute;
+    display: block;
+    bottom: 0;
+    background: #4ac179;
+    left: 158px;
+    width: 88px;
+    height: 88px;
+}
+.two-3{
+	position: absolute;
+    display: block;
+    bottom: 0;
+    background: #8ae75a;
+    left: 246px;
+    width: 44px;
+    height: 44px;
+}
+.two-4{
+	position: absolute;
+    display: block;
+    bottom: 0;
+    background: #8ae75a;
+    right: 328px;
+    width: 44px;
+    height: 44px;
+}
+.two-5{
+	position: absolute;
+    display: block;
+    bottom: 0;
+        background: #4ac179;
+    right: 240px;
+    width: 44px;
+    height: 44px;
+}
+.obj{
+	right: 26px;
+    opacity: 1;
+    visibility: visible;
+    width: 444px;
+    height: 427px;
+    background: url(../baiduimg/14.png);
+    top: -200px;
+    position: absolute;
+    right: -120%;
+    opacity: 0;
+}
+.title-f{
+	top: -100px;
+    left: 20px;
+    position: absolute;
+    opacity: 0;
+    left: -120%;
+    
+}
+.title{
+	position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+    width: 500px;
+}
+.title h3{
+	background: url(../baiduimg/13.png) no-repeat;
+	width: 66px;
+    height: 126px;
+    text-indent: -9999em;
+    float: left;
+    /*transition: all 2s linear;*/ 
+    animation:dump 2s linear infinite;
+}
+.text{
+	margin-left: 86px;
+    margin-top: 8px;
+}
+.text h4{
+	font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 48px;
+    margin-bottom: 6px;
+}
+.text p{
+	font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    opacity: .8;
+}
+@keyframes dump{
+	from{
+		transform: rotateY(0deg);
+	}
+	40%{
+		transform: rotateY(0deg);
+		
+	}
+	60%{
+		transform: rotateY(0deg);
+		
+	}
+	to{
+		transform: rotateY(360deg);
+		
+	}
+}
+/*3*/
+.top{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.three{
+	position: absolute;
+    display: block;
+    width: 88px;
+    height: 88px;
+}
+.three-1{
+	background: #33bb9a;
+    left: 70px;
+    top: 60px;
+}
+.three-2{
+	background: #29a2b8;
+    left: -18px;
+    top: 148px;
+}
+.three-3{
+	background: #60cf6e;
+    left: 158px;
+    top: 148px;
+}
+.three-4{
+	background: #8ae75a;
+    left: 70px;
+    top: 236px;
+    width: 176px;
+    height: 176px;
+    background-image: url(../baiduimg/16.jpg);
+}
+.three-5{
+	background: #33bb9a;
+    left: 246px;
+    top: 236px;
+}
+.forword{
+	height: 138px;
+    background: transparent url(../baiduimg/17.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.title2 h3{
+	background: url(../baiduimg/18.png) no-repeat;
+	width: 66px;
+    height: 126px;
+    text-indent: -9999em;
+    float: left;
+    /*transition: all 2s linear;*/ 
+    animation:dump 2s linear infinite;
+}
+.obj2{
+	right: 26px;
+    opacity: 1;
+    visibility: visible;
+    width: 444px;
+    height: 427px;
+    background: url(../baiduimg/19.png) no-repeat;
+    top: -200px;
+    position: absolute;
+    right: -120%;
+    opacity: 0;
+}
+/*4*/
+.title3{
+	top: -140px;
+    left: 82px;
+    position: absolute;
+    left: -120%;
+    opacity: 0;
+}
+.obj3{
+	left: -36px;
+    top: -56px;
+    width: 275px;
+    height: 245px;
+    background: url(../baiduimg/21.png) no-repeat;
+    position: absolute;
+}
+.title4 h3{
+	background: url(../baiduimg/22.png) no-repeat;
+	width: 66px;
+    height: 126px;
+    text-indent: -9999em;
+    float: left;
+    /*transition: all 2s linear;*/ 
+    animation:dump 2s linear infinite;
+}
+.obj4{
+	width: 603px;
+    height: 361px;
+    background: url(../baiduimg/23.png);
+    right: 80px;
+    top: -160px;
+    position: absolute;
+	right: -120%;
+	opacity: 0;
+}
