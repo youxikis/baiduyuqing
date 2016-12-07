@@ -198,6 +198,78 @@ a,i,b,em{
     position: absolute;
     right: 0;
     top: -198px;
+    box-sizing: border-box;
+}
+.zhuce{
+    width: auto;box-shadow: none;
+}
+#biao{
+    background: transparent;
+    padding-top: 26px;position: relative;
+}
+.denglubox{
+    width: 299px;border: 1px solid #fff;box-sizing: border-box;
+    height: 40px;background: #fff;margin: auto;
+}
+.denglubox .span{
+    background: url(../baiduimg/icon.png) no-repeat -124px -12px;
+    width: 14px;height: 14px;margin: 12px 3px 0 10px;
+}
+.yonghuming{
+    width: 252px;float: left;border: 0;margin-top: -16px;
+    outline: none;padding: 9px;height: 20px;margin-left: 30px;
+    color: #666;
+}
+.denglubox1{
+    width: 299px;border: 1px solid #fff;box-sizing: border-box;
+    height: 40px;background: #fff;margin:20px auto;
+}
+.denglubox1 .span1{
+    background: url(../baiduimg/icon.png) no-repeat -140px -12px;
+    width: 14px;height: 14px;margin: 12px 3px 0 10px;
+}
+.yonghuming1{
+    width: 252px;float: left;border: 0;margin-top: -16px;
+    outline: none;padding: 9px;height: 20px;margin-left: 30px;
+    color: #666;
+}
+.denglubox2{
+    width: 299px;box-sizing: border-box;
+    height: 40px;margin:0px auto 20px;
+}
+.yonghuming2{
+    width: 135px;border: 0;float: left;padding: 20px;height: 20px;
+    background: #fff;color: #666;
+}
+.yz-img{
+    width: 99px;height: 39px;opacity: 0.7;float: left;
+    margin-left: 12px;
+}
+.change{
+    color: #fff;font-size: 12px;margin: 10px 0 0 12px;
+    float: left;
+}
+.submit{
+    border: 0;background: #ffd850;color: #5c4c12;border-radius: 2px;
+    width: 299px;margin: 30px auto 0;
+    display: block;padding: 0 10px;font-size: 18px;
+    line-height: 35px;text-align: center;box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    vertical-align: middle;font-weight: bold;
+}
+.dlzuihou{
+    width: 300px ;height: 20px;margin: 15px auto;
+}
+.xicon{
+    display: inline-block;
+    width: 15px;height: 17px;
+    background: url(../baiduimg/icon.png) no-repeat -203px -75px;
+    margin: 2px 4px 0 0;float: left;
+}
+.dlzuihou a{
+    color: #fff;font-size: 12px;float: left;
+}
+.dlzuihou a:hover{
+    text-decoration: underline;
 }
 .denglu input{
 	padding: 0;
@@ -207,6 +279,7 @@ a,i,b,em{
 	height: 40px;
 	margin-top: 20px;
 	float: left;
+    padding-left: 10px;
 }
 .denglu input:nth-child(3){
 	width: 145px;
